@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+  }
+  h1{
+    color: #107eaa;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  
+  .left-panel, .right-panel {
+    width: 55%;
+    height: 100vh;
+   
+  }
+  
+  .left-panel {
+    width: 45%;
+    padding: 5px;
+    background-color: #ffffff;
+  }
+  .right-panel{
+    background: linear-gradient(to right, #ffffff, #7ad3d6);
+  }

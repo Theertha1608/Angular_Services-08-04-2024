@@ -1,0 +1,32 @@
+.add-task-container {
+    max-width: 400px;
+    margin: 0 auto; 
+  }
+  h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+  form {
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 5px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    box-sizing: border-box; 
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #1f5c79;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  

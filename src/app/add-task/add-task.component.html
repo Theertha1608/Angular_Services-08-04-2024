@@ -1,0 +1,14 @@
+<h3>ADD TASKS TO COMPLETE...!</h3>
+<div class="add-task-container">
+<form (ngSubmit)="addTask()">
+    <div>
+      <label>Title:</label>
+      <input class="input" type="text" [(ngModel)]="title" name="title" required>
+    </div>
+    <div>
+      <label>Description:</label>
+      <textarea class="input" [(ngModel)]="description" name="description" required></textarea>
+    </div>
+    <button type="submit">Add Task</button>
+  </form>
+</div>
